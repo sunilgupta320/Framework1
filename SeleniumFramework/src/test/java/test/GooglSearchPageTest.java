@@ -18,7 +18,7 @@ public class GooglSearchPageTest {
 	GoogleSearchPageObjects searchPageObj= new GoogleSearchPageObjects(driver);
 	driver.get("https://google.com");
 	searchPageObj.setTextInSearchBox("ABCD");
-	Thread.sleep(2000);
+	Thread.sleep(3000);
 	searchPageObj.clickSearchButton();
 	driver.close();
 	
